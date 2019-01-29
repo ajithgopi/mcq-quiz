@@ -9,7 +9,6 @@
 	$_password	=	"";
 	$_db_name	=	"";
 	
-	
     $conn = new mysqli($_host,$_username,$_password,$_db_name);
     if($conn->connect_error){
         die("Couldn't connect");
