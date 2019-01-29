@@ -24,8 +24,9 @@
 <script>
 	var total_questions=<?php echo $cexam['nquestions']; ?>;
 	function markAnswer(qstn,opt,qno,ntry=1){
-		if($("#qno_"+qno).html()!='<div class="preloader-wrapper small active"><div class="spinner-layer spinner-green-only"><div class="circle-clipper left"><div class="circle"></div></div><div class="gap-patch"><div class="circle"></div></div><div class="circle-clipper right"><div class="circle"></div></div></div></div>')
-			$("#qno_"+qno).html('<div class="preloader-wrapper small active"><div class="spinner-layer spinner-green-only"><div class="circle-clipper left"><div class="circle"></div></div><div class="gap-patch"><div class="circle"></div></div><div class="circle-clipper right"><div class="circle"></div></div></div></div>');
+		let answered_text = '<div class="preloader-wrapper small active"><div class="spinner-layer spinner-green-only"><div class="circle-clipper left"><div class="circle"></div></div><div class="gap-patch"><div class="circle"></div></div><div class="circle-clipper right"><div class="circle"></div></div></div></div>';
+		if($("#qno_"+qno).html()!=answered_text)
+			$("#qno_"+qno).html(answered_text);
 		
 		var isChecked = ( $("#o_"+qno+"_"+opt).attr('isChecked') == '1')?'del':'edit';
 		

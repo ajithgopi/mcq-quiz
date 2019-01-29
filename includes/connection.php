@@ -1,7 +1,16 @@
 <?php
     session_start();
+	/*
+		Database credentials
+	*/
 	
-    $conn = new mysqli("localhost","root","","quiz");
+	$_host		=	"localhost";
+	$_username	=	"root";
+	$_password	=	"";
+	$_db_name	=	"";
+	
+	
+    $conn = new mysqli($_host,$_username,$_password,$_db_name);
     if($conn->connect_error){
         die("Couldn't connect");
     }
