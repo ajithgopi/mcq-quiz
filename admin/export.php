@@ -1,4 +1,19 @@
 <?php
+	/**
+	 * admin/export.php
+	 *
+	 * Exports the results as an excel file
+	 *
+	 * @author     Ajith Gopi
+	 * @copyright  2019, Ajith Gopi
+	 * @license    https://github.com/ajithgopi/mcq-quiz/blob/master/LICENSE  BSD 3-Clause License
+	 * 
+	 * THIS PAGE USES THE LIBRARY PHPExcel (depreciated) https://github.com/PHPOffice/PHPExcel
+	 *
+	 * DO NOT REMOVE THIS COPYRIGHT INFORMATION WITHOUT PERMISSION. YOU WILL BE VIOLATING THE LICENSE
+	 * AGGREMENT WHEN YOU DO SO. (according to https://github.com/ajithgopi/mcq-quiz/blob/master/LICENSE).
+	 */
+	 
     require_once "../includes/connection.php";
 	require_once "admin_login.php";
     include_once "../libs/PHPExcel.php";

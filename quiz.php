@@ -1,4 +1,17 @@
 <?php
+	/**
+	 * quiz.php
+	 *
+	 * The main examination page
+	 *
+	 * @author     Ajith Gopi
+	 * @copyright  2019, Ajith Gopi
+	 * @license    https://github.com/ajithgopi/mcq-quiz/blob/master/LICENSE  BSD 3-Clause License
+	 *
+	 * DO NOT REMOVE THIS COPYRIGHT INFORMATION WITHOUT PERMISSION. YOU WILL BE VIOLATING THE LICENSE
+	 * AGGREMENT WHEN YOU DO SO. (according to https://github.com/ajithgopi/mcq-quiz/blob/master/LICENSE).
+	 */
+	 
     require_once("includes/connection.php");
     if(isset($_SESSION['u'])){
         $u = $_SESSION["u"];
@@ -212,7 +225,7 @@
 		}
 		else{
 			$("#ban_timer").css('display','none');
-			//ban_timer=ban_time;
+			//ban_timer=ban_time; //Uncomment this line to allow the users to have induvidual timer to return to the exam page after going out of it.
 		}
 	},1000);
 	$(document).mouseleave(function() {

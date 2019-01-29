@@ -7,7 +7,8 @@ Redistribution and use in source and binary forms, with or without
 modification, are permitted provided that the following conditions are met:
 
 * Redistributions of source code must retain the above copyright notice, this
-  list of conditions and the following disclaimer.
+  list of conditions, the following disclaimer and the copyright/author
+  information in each pages of the source code.
 
 * Redistributions in binary form must reproduce the above copyright notice,
   this list of conditions and the following disclaimer in the documentation
@@ -19,6 +20,9 @@ modification, are permitted provided that the following conditions are met:
   
 * The footer in the webpages should be retained and the text shouldn't be
   modified in any manner, nor should be hid from the users of the software.
+  
+* Redistributions of source code must be SOLD for money or in exchange for
+  any other products/goods.
 
 THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS"
 AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
