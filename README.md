@@ -5,13 +5,12 @@ Local MCQ quiz web application
 1. Copy all the files to the root directory of your hosting space
 2. Create a database and import *quiz.sql*
 3. Update the database credentials in *includes/connection.php*
-
-
+```
     $_host		=	"YOUR HOST NAME";
     $_username	=	"YOUR DATABASE USERNAME";
     $_password	=	"YOUR DATABASE PASSWORD";
     $_db_name	=	"YOUR DATABASE NAME";
-    
+```
 4. Installation completed. Now you can login the admin panel with the default username and password -- _admin:password123_
 
 ## Documentation
