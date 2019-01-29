@@ -6,7 +6,7 @@ Local MCQ quiz web application
 2. Create a database and import *quiz.sql*
 3. Update the database credentials in *includes/connection.php*
 ```
-    $_host		=	"YOUR HOST NAME";
+    $_host	=	"YOUR HOST NAME";
     $_username	=	"YOUR DATABASE USERNAME";
     $_password	=	"YOUR DATABASE PASSWORD";
     $_db_name	=	"YOUR DATABASE NAME";
